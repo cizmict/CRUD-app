@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/84303218ae.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="../../global/global.css" />
+    <link rel="stylesheet" href="single-post.css" />
+    <link rel="stylesheet" href="../../global/last-styles.css" />
+
+    <!-- Title -->
+    <title>Ana.rs</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav>
+      <a href="../../index.html" class="logo"> <h3>Ana.rs</h3> </a>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- container -->
+    <div class="container">
+      <div class="btn-container">
+        <!-- Delete button -->
+        <div class="delete-btn-box">
+          <button id="delete-btn">Obrisi post</button>
+        </div>
+
+        <!-- Update button -->
+        <div class="update-btn-box">
+          <button id="update-btn">Promeni post</button>
+        </div>
+      </div>
+
+      <!-- Post -->
+      <div class="post"> </div>
+
+      <div class="comment-section">
+        <h3>Komentari</h3>
+
+        <div class="comments"> </div>
+
+        <div class="open-footer-btn-box">
+          <button id="comment-section-btn">Postavite komentar</button>
+        </div>
+        <div class="footer-divider"></div>
+
+        <div class="footer hidden">
+          <div class="leave-comment-box">
+            <h4>Postavite komentar</h4>
+            <input type="text" placeholder="Autor" />
+            <textarea placeholder="Upisite vas komentar ovde"></textarea>
+            <div class="leave-comment-btn-box">
+              <button id="comment-btn">Postavi</button>
+              <button id="dont-comment-btn">Odustani</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- end of comment section -->
+      </div>
+
+      <!-- end of container -->
+    </div>
+
+    <!-- JS -->
+    <script src="../../global/global.js"></script>
+    <script src="single-post.js"></script>
+
+    <!-- end of body -->
+  </body>
+</html>

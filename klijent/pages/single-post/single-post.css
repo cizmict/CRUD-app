@@ -1,0 +1,130 @@
+.container {
+  margin: 30px auto;
+  width: 90%;
+}
+
+.post {
+  border: 1px solid gray;
+  padding: 20px 20px;
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.post-id {
+  font-size: 12px;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 18px;
+}
+
+.post-time,
+.verified {
+  font-size: 12px;
+  font-weight: 900;
+  color: gray;
+}
+
+.text {
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.post-footer p {
+  font-size: 11px;
+  color: gray;
+}
+
+/* comment section */
+
+.comment-section {
+  border-top: none;
+  padding-top: 20px;
+}
+
+.comments {
+  margin-top: 10px;
+}
+
+.comment {
+  border: 1px solid gray;
+  margin-left: 20px;
+  padding: 15px;
+}
+
+.comment:not(:first-child) {
+  border-top: none;
+}
+
+.comment-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.comment-author {
+  font-size: 14px;
+}
+
+.comment-text {
+  font-size: 12px;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+/* leave comment */
+
+.open-footer-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.footer-divider {
+  height: 182px;
+}
+
+.footer {
+  background-color: rgba(248, 198, 207, 0.973);
+  z-index: 20;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-top: 2px solid gray;
+}
+
+.leave-comment-box {
+  width: 90%;
+}
+
+.leave-comment-box input {
+  margin: 10px 0;
+}
+
+.leave-comment-box textarea {
+  height: 60px;
+}
+
+.leave-comment-btn-box {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}
