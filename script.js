@@ -140,6 +140,7 @@ app.delete("/api/posts/:postId", async (req, res) => {
   }
 });
 
+
 //update posta
 app.put("/api/posts/:postId", async (req, res) => {
   try {
